@@ -2,6 +2,7 @@
 // 	outline: 1px solid red;
 // }
 
+
 // Global
 
 html {
@@ -19,9 +20,6 @@ html {
 
 body {
 	background-color: #eeeeee;
-
-	// ! temporary
-	overflow: hidden;
 }
 
 // Header Section
@@ -35,7 +33,6 @@ body {
 	background-color: #ffffff;
 	box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
 	position: fixed;
-
 	padding-left: 30px;
 	padding-right: 30px;
 
@@ -54,15 +51,9 @@ body {
 	}
 }
 
-// Branding
-// .branding {
-
-// }
-
 
 // Search
 .search {
-
 	background-color: #eeeeee;
 	border-radius: 8px;
 	padding: 0 10px;
@@ -70,7 +61,6 @@ body {
 	&__form {
 		width: 465px;
 		height: 45px;
-
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -78,7 +68,6 @@ body {
 		&--input {
 			width: 100%;
 			height: 100%;
-
 			background-color: #eeeeee;
 			border: none;
 			border-radius: 8px;
@@ -101,9 +90,6 @@ body {
 	}
 }
 
-// .tools * {
-// 	border: 1px solid red;
-// }
 
 // Tools
 .tools {
@@ -121,7 +107,6 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
 		background-color: #eeeeee;
 
 		&:hover {
@@ -135,11 +120,7 @@ body {
 
 // Hero Section
 .hero {
-	border: 1px solid red;
-
-	width: 100vw;
 	height: 100vh;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -147,17 +128,12 @@ body {
 	&__img-container {
 		width: 50vw;
 		height: 100vh;
-
 		padding: 30px;
 
 		& img {
 			width: 100%;
 			height: 100%;
 		}
-	}
-
-	&__content * {
-		border: 1px solid red;
 	}
 
 	&__content {
@@ -167,7 +143,6 @@ body {
 		flex-direction: column;
 		width: 50vw;
 		height: 100vh;
-
 		padding: 30px;
 	}
 
@@ -192,11 +167,3 @@ body {
 	}
 }
 
-
-
-
-
-
-
-
-// Media Queries
